@@ -30,6 +30,7 @@ const Dummy = () => {
           placeholder="Enter Amount"
           value={amount}
           onChange={handleAmountChange}
+required
         />
       </div>
       <button
