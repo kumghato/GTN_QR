@@ -9,7 +9,7 @@ const Success = () => {
           <b>THANK YOU!!</b>
         </h1>
         <h1 className="text-lg p-5 text-center">
-          Your contribution means a lot to people in need.
+          Your contribution means a lot to the people in need.
         </h1>
         <div className="mt-5 text-center">
           <h1>
