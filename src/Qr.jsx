@@ -53,9 +53,9 @@ const Qr = () => {
 
   return (
     <>
-      <div className="p-5 h-screen flex flex-col items-center justify-center">
-        <img className="w-100 sm:w-[50%]" src={logo} alt="logo" />
-        <div className="w-max py-5 px-5 border border-solid border-black mt-5 text-center">
+      <div className="p-7 h-screen flex flex-col items-center justify-center">
+        <img className="w-full sm:w-[50%]" src={logo} alt="logo" />
+        <div className="w-full py-5 px-3 border border-solid border-black mt-5 text-center">
           <div>
             <h1>
               Scan the QR code to make the donation to{" "}
@@ -70,7 +70,7 @@ const Qr = () => {
             </h1>
           </div>
           <div className="w-fit m-auto p-5">
-            <QRCode size={400} value={upiUrl} />
+            <QRCode size={250} value={upiUrl} />
           </div>
           <div className="flex flex-col gap-4">
             <h1 className="p-5 ">Please upload the payment screenshot.</h1>
